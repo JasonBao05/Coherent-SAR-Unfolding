@@ -8,26 +8,6 @@ The repository contains only the final model, the matrix-free wideband SAR
 operator, a compact training/validation pipeline, two numerical validation
 tests, and an included simulated dataset.
 
-## Method
-
-For epochs \(t\in\{1,2\}\), the observation model is
-
-\[
-y_t=M_tA_tx_t+n_t,
-\]
-
-where \(A_t\) is the SAR forward operator and \(M_t\) is a sampling mask in
-the acquisition domain. The differential-phase convention is
-
-\[
-\Delta\phi=\arg(x_2x_1^*).
-\]
-
-The five-stage network applies data consistency before and after a shared
-complex prior. Its selective interaction is exchange equivariant: swapping
-the two inputs swaps the two outputs. Interaction automatically falls back to
-independent reconstruction when local coherence is absent or the two data
-consistency residuals conflict strongly.
 
 ## Files
 
