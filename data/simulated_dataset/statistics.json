@@ -1,0 +1,109 @@
+{
+  "split_sample_counts": {
+    "train": 32,
+    "validation": 8,
+    "test": 8
+  },
+  "split_parent_scene_counts": {
+    "train": 2,
+    "validation": 1,
+    "test": 1
+  },
+  "difficulty_counts": {
+    "train": {
+      "easy": 16,
+      "medium": 16,
+      "hard": 0
+    },
+    "validation": {
+      "easy": 0,
+      "medium": 8,
+      "hard": 0
+    },
+    "test": {
+      "easy": 0,
+      "medium": 8,
+      "hard": 0
+    }
+  },
+  "distributions": {
+    "train": {
+      "amplitude": {
+        "count": 4194304,
+        "minimum": 0.031329445540905,
+        "maximum": 1.0704774856567383,
+        "mean": 0.1635823589138239,
+        "standard_deviation": 0.07187200583797612
+      },
+      "delta_phi": {
+        "count": 2097152,
+        "minimum": -0.9320968985557556,
+        "maximum": 0.9654054045677185,
+        "mean": 0.020925391837560328,
+        "standard_deviation": 0.16854142455903548
+      },
+      "phase_weight": {
+        "count": 2097152,
+        "minimum": 0.0,
+        "maximum": 0.9950000047683716,
+        "mean": 0.38836033350699867,
+        "standard_deviation": 0.24924856257000347
+      }
+    },
+    "validation": {
+      "amplitude": {
+        "count": 1048576,
+        "minimum": 0.05359562113881111,
+        "maximum": 0.8388648629188538,
+        "mean": 0.16519642283769542,
+        "standard_deviation": 0.08218206051807429
+      },
+      "delta_phi": {
+        "count": 524288,
+        "minimum": -0.22664260864257812,
+        "maximum": 0.9924728870391846,
+        "mean": 0.07876119572856569,
+        "standard_deviation": 0.17173510336117456
+      },
+      "phase_weight": {
+        "count": 524288,
+        "minimum": 0.0,
+        "maximum": 0.9950000047683716,
+        "mean": 0.38698292481235474,
+        "standard_deviation": 0.27037398937232543
+      }
+    },
+    "test": {
+      "amplitude": {
+        "count": 1048576,
+        "minimum": 0.04158113896846771,
+        "maximum": 0.900385856628418,
+        "mean": 0.1652061456358247,
+        "standard_deviation": 0.07197179780889977
+      },
+      "delta_phi": {
+        "count": 524288,
+        "minimum": -0.5619696378707886,
+        "maximum": 0.8199511766433716,
+        "mean": 0.06267430578843104,
+        "standard_deviation": 0.1988541516424832
+      },
+      "phase_weight": {
+        "count": 524288,
+        "minimum": 0.0,
+        "maximum": 0.9950000047683716,
+        "mean": 0.39948987956798365,
+        "standard_deviation": 0.2654197292999631
+      }
+    }
+  },
+  "maximum_wrapped_phase_label_error_rad": 0.0,
+  "duplicate_file_hash_count": 0,
+  "duplicate_truth_content_hash_count": 0,
+  "noise_bank_seed_file_sha256": {
+    "train": "9999929faedb9d51a6359584f64c681d743a4b783b490627d6dc836934052c33",
+    "validation": "c32f7d6e0cc33b9dc5dfc56309d5990f8f737041685e448ef8432a8eee6b5f2b",
+    "test": "a258478eba4c0225d0502a44356bfb3f6eb83d3345e3c4d53b4f45c2243a2969"
+  },
+  "runtime_seconds": 10.976239919662476
+}

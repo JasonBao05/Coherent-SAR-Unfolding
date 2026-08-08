@@ -1,0 +1,31 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and IDE files
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated checkpoints and experiment outputs
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini

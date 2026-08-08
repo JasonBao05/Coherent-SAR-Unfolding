@@ -1,0 +1,50 @@
+{
+  "split_seed": 2026080118,
+  "parent_first": true,
+  "maximum_patches_per_parent": 16,
+  "parent_plan": {
+    "train": [
+      {
+        "parent_scene_id": "sim_parent_00002",
+        "parent_numeric_id": 2,
+        "parent_seed": 2036280126,
+        "patch_count": 16,
+        "split": "train",
+        "split_index": 0
+      },
+      {
+        "parent_scene_id": "sim_parent_00001",
+        "parent_numeric_id": 1,
+        "parent_seed": 2036180123,
+        "patch_count": 16,
+        "split": "train",
+        "split_index": 0
+      }
+    ],
+    "validation": [
+      {
+        "parent_scene_id": "sim_parent_00000",
+        "parent_numeric_id": 0,
+        "parent_seed": 2036080120,
+        "patch_count": 8,
+        "split": "validation",
+        "split_index": 1
+      }
+    ],
+    "test": [
+      {
+        "parent_scene_id": "sim_parent_00003",
+        "parent_numeric_id": 3,
+        "parent_seed": 2036380129,
+        "patch_count": 8,
+        "split": "test",
+        "split_index": 2
+      }
+    ]
+  },
+  "parent_intersections": {
+    "train_validation": [],
+    "train_test": [],
+    "validation_test": []
+  }
+}

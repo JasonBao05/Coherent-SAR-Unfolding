@@ -1,0 +1,48 @@
+{
+  "data_directory": "data/simulated_dataset",
+  "output_directory": "outputs",
+  "random_seed": 20260813,
+  "sampling": {
+    "aperture_candidates": 256,
+    "sample_count": 104,
+    "mask_indices": [
+      2, 4, 6, 8, 11, 13, 15, 17, 19, 21, 25, 28, 30, 32, 35, 39,
+      43, 47, 50, 54, 56, 58, 60, 62, 65, 67, 69, 71, 73, 75, 77, 79,
+      81, 85, 89, 92, 94, 96, 99, 101, 103, 106, 108, 110, 114, 118,
+      121, 123, 125, 128, 130, 132, 134, 136, 140, 143, 145, 147, 149,
+      151, 153, 155, 158, 160, 162, 164, 166, 169, 171, 173, 175, 177,
+      179, 181, 185, 187, 189, 192, 194, 196, 198, 200, 204, 207, 209,
+      211, 213, 215, 217, 219, 222, 224, 226, 228, 230, 234, 238, 241,
+      244, 246, 248, 251, 253, 255
+    ]
+  },
+  "model": {
+    "stages": 5,
+    "hidden_channels": 16,
+    "coherence_window_size": 7,
+    "gradient_checkpointing": true
+  },
+  "training": {
+    "steps": 200,
+    "batch_size": 1,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.000001,
+    "gradient_clip_norm": 2.0,
+    "snr_db_range": [15.0, 25.0],
+    "validation_interval": 50,
+    "log_interval": 10
+  },
+  "loss": {
+    "complex_weight": 1.0,
+    "amplitude_weight": 0.35,
+    "raw_phase_weight": 0.12,
+    "differential_phase_weight": 1.25,
+    "gate_smoothness_weight": 0.0001,
+    "gate_anti_collapse_weight": 0.001
+  },
+  "validation": {
+    "snr_db": 20.0,
+    "batch_size": 1
+  }
+}
+

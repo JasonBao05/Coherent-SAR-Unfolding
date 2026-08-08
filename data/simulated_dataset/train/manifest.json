@@ -1,0 +1,1319 @@
+{
+  "split": "train",
+  "sample_count": 32,
+  "parent_scene_count": 2,
+  "samples": [
+    {
+      "sample_id": "train_000000",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        512,
+        768,
+        256,
+        512
+      ],
+      "rotation_quarter_turns": 3,
+      "horizontal_flip": true,
+      "difficulty": "medium",
+      "generation_seed": 2036280179,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 19,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        256.0,
+        384.0,
+        4128.0,
+        4256.0
+      ],
+      "relative_path": "train/samples/train_000000.npz",
+      "file_sha256": "b5c1817b3f1a02edea9a56cd254479c613fef96a94e84a4fe1805a303ccb49d1",
+      "truth_content_sha256": "37691904f90df1f6f6ce006bf439feee3881536cbc4f4c64cb950aeb658e4a8d",
+      "hard_valid_ratio": 0.8828582763671875,
+      "phase_weight_mean": 0.6087615489959717
+    },
+    {
+      "sample_id": "train_000001",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        256,
+        512,
+        0,
+        256
+      ],
+      "rotation_quarter_turns": 1,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036281188,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 43,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        128.0,
+        256.0,
+        4000.0,
+        4128.0
+      ],
+      "relative_path": "train/samples/train_000001.npz",
+      "file_sha256": "d760ce7997bd121c7fab6f0b3b88136d39b5857d4661c471f93546dc2bac61e3",
+      "truth_content_sha256": "bfa938557c48bfc9e41fc6e436c375df8d18501f382e2a7fe019bfc68130abd2",
+      "hard_valid_ratio": 0.999603271484375,
+      "phase_weight_mean": 0.8493927717208862
+    },
+    {
+      "sample_id": "train_000002",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        512,
+        768,
+        512,
+        768
+      ],
+      "rotation_quarter_turns": 1,
+      "horizontal_flip": true,
+      "difficulty": "medium",
+      "generation_seed": 2036282197,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 42,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9949992895126343,
+      "global_bounds_m": [
+        256.0,
+        384.0,
+        4256.0,
+        4384.0
+      ],
+      "relative_path": "train/samples/train_000002.npz",
+      "file_sha256": "6a228335511105c53f1499b8d18bc0a4fd983238a1581691d9e7c91577609239",
+      "truth_content_sha256": "8960f21de1a5b3ecc6ad82e212dc3ed2cf2d4608c5c679e26996c7a1d2e282ad",
+      "hard_valid_ratio": 0.6557159423828125,
+      "phase_weight_mean": 0.5471861362457275
+    },
+    {
+      "sample_id": "train_000003",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        0,
+        256,
+        256,
+        512
+      ],
+      "rotation_quarter_turns": 3,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036283206,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 70,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        0.0,
+        128.0,
+        4128.0,
+        4256.0
+      ],
+      "relative_path": "train/samples/train_000003.npz",
+      "file_sha256": "e35924dd8dd90a3bd43251f5e5983ef4231add8a95b9e8ad82e9fec772a6392b",
+      "truth_content_sha256": "e9b3f4a9d9b7d4438ab4ab557d9628b35dff3fcbfc06484466ca84ca2ef60323",
+      "hard_valid_ratio": 0.35479736328125,
+      "phase_weight_mean": 0.4171731173992157
+    },
+    {
+      "sample_id": "train_000004",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        512,
+        768,
+        0,
+        256
+      ],
+      "rotation_quarter_turns": 2,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036284215,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 47,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        256.0,
+        384.0,
+        4000.0,
+        4128.0
+      ],
+      "relative_path": "train/samples/train_000004.npz",
+      "file_sha256": "0f6ae8bac8dab755c20ac95cd24fa05343425c0490de731fd590f93d2b7a0f84",
+      "truth_content_sha256": "34fc2a38b8a5be310cc653ce9a1a07bef41b31b5e8369d960a25d6e26cc42f6e",
+      "hard_valid_ratio": 0.91143798828125,
+      "phase_weight_mean": 0.6609758138656616
+    },
+    {
+      "sample_id": "train_000005",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        768,
+        1024,
+        0,
+        256
+      ],
+      "rotation_quarter_turns": 3,
+      "horizontal_flip": true,
+      "difficulty": "medium",
+      "generation_seed": 2036285224,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 37,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        384.0,
+        512.0,
+        4000.0,
+        4128.0
+      ],
+      "relative_path": "train/samples/train_000005.npz",
+      "file_sha256": "a88c016372883a79b955436ffefcf1360d39a14387be5130e2e7d0b79061d649",
+      "truth_content_sha256": "493d4e4e95ff3c7d579425b085d0b14d23c535442b07a70f74e91c8f9807c4d1",
+      "hard_valid_ratio": 0.2122344970703125,
+      "phase_weight_mean": 0.31306740641593933
+    },
+    {
+      "sample_id": "train_000006",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        0,
+        256,
+        0,
+        256
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": true,
+      "difficulty": "medium",
+      "generation_seed": 2036286233,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 51,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        0.0,
+        128.0,
+        4000.0,
+        4128.0
+      ],
+      "relative_path": "train/samples/train_000006.npz",
+      "file_sha256": "66e7ea48acd9073608b45954726aba0050310e1bc0a3fe158bb0440c39d009a5",
+      "truth_content_sha256": "2feef30f8037ce9bb5452bee5e61536f5029ef6d2d461a2a0a895c7bdc539338",
+      "hard_valid_ratio": 0.2847137451171875,
+      "phase_weight_mean": 0.42980462312698364
+    },
+    {
+      "sample_id": "train_000007",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        768,
+        1024,
+        768,
+        1024
+      ],
+      "rotation_quarter_turns": 3,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036287242,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 65,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        384.0,
+        512.0,
+        4384.0,
+        4512.0
+      ],
+      "relative_path": "train/samples/train_000007.npz",
+      "file_sha256": "a474ec88aa498598994d7c8f921710f7eaa4d60c3c20576855204cbb244ea39b",
+      "truth_content_sha256": "22417b72065ba1965e8f8c8db5547a2b5ceb8e11ba5ce3b3a5753d1ebe4453ff",
+      "hard_valid_ratio": 0.0,
+      "phase_weight_mean": 0.16639265418052673
+    },
+    {
+      "sample_id": "train_000008",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        0,
+        256,
+        768,
+        1024
+      ],
+      "rotation_quarter_turns": 3,
+      "horizontal_flip": true,
+      "difficulty": "medium",
+      "generation_seed": 2036288251,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 58,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9946807026863098,
+      "global_bounds_m": [
+        0.0,
+        128.0,
+        4384.0,
+        4512.0
+      ],
+      "relative_path": "train/samples/train_000008.npz",
+      "file_sha256": "257ec3220aba3c60b21a5717ef03d2c3ef0741e637193ceb88a168498f811f89",
+      "truth_content_sha256": "50f3a6353b1e65f6ea70d156b65ed12d648f2604b429e3b19d6167a3be28f9a9",
+      "hard_valid_ratio": 0.0,
+      "phase_weight_mean": 0.2231987714767456
+    },
+    {
+      "sample_id": "train_000009",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        768,
+        1024,
+        512,
+        768
+      ],
+      "rotation_quarter_turns": 1,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036289260,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 35,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9839534163475037,
+      "global_bounds_m": [
+        384.0,
+        512.0,
+        4256.0,
+        4384.0
+      ],
+      "relative_path": "train/samples/train_000009.npz",
+      "file_sha256": "71cac0beb6bbc3da8725262c2472279b22f3a684f07f7271539685c25257d9c0",
+      "truth_content_sha256": "14bac90397901eaa813b0800e910d9de028e06075286fe2bb51b995eab3c68ba",
+      "hard_valid_ratio": 0.154632568359375,
+      "phase_weight_mean": 0.2978101074695587
+    },
+    {
+      "sample_id": "train_000010",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        768,
+        1024,
+        256,
+        512
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": true,
+      "difficulty": "medium",
+      "generation_seed": 2036290269,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 40,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        384.0,
+        512.0,
+        4128.0,
+        4256.0
+      ],
+      "relative_path": "train/samples/train_000010.npz",
+      "file_sha256": "48c3d38dc455a4062360de4931d2b57e24d4d4458d90a2d4f6900d77206f4665",
+      "truth_content_sha256": "8c89847fa0eb85fec5ebfb9ba20f195b110c788dad706b36d16d8d053bbefe79",
+      "hard_valid_ratio": 0.5306549072265625,
+      "phase_weight_mean": 0.4267697334289551
+    },
+    {
+      "sample_id": "train_000011",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        0,
+        256,
+        512,
+        768
+      ],
+      "rotation_quarter_turns": 2,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036291278,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 49,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9905323386192322,
+      "global_bounds_m": [
+        0.0,
+        128.0,
+        4256.0,
+        4384.0
+      ],
+      "relative_path": "train/samples/train_000011.npz",
+      "file_sha256": "7a5ba53357ddee6ec14a11dccbe60c9ca647058c49d7d5109f0621c225a147de",
+      "truth_content_sha256": "727ba55c4dac2fcdfc8e991e1c24232a0a053f6d38b14a9278c8b8f6517e6b9a",
+      "hard_valid_ratio": 0.0,
+      "phase_weight_mean": 0.20194058120250702
+    },
+    {
+      "sample_id": "train_000012",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        256,
+        512,
+        256,
+        512
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036292287,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 59,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9949864745140076,
+      "global_bounds_m": [
+        128.0,
+        256.0,
+        4128.0,
+        4256.0
+      ],
+      "relative_path": "train/samples/train_000012.npz",
+      "file_sha256": "578040eb69b025cfc23c345a750b17d61dc2e9ce6f7b39979b58eeb4b18005f8",
+      "truth_content_sha256": "f2d54449e800ff4fec28630e00fe63a53ddce1bf63f8bfd371d497d1cb294bcc",
+      "hard_valid_ratio": 0.83367919921875,
+      "phase_weight_mean": 0.7184760570526123
+    },
+    {
+      "sample_id": "train_000013",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        256,
+        512,
+        512,
+        768
+      ],
+      "rotation_quarter_turns": 1,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036293296,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 50,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9695993661880493,
+      "global_bounds_m": [
+        128.0,
+        256.0,
+        4256.0,
+        4384.0
+      ],
+      "relative_path": "train/samples/train_000013.npz",
+      "file_sha256": "cd9e2e93a54e3800445c0e98f89a120c2bec06564b64bb90ced46ace4c5c0e46",
+      "truth_content_sha256": "ffcd07c7214d2a6e95adf6adf02c8bd901d957bf94a0e8155fb9d2e2750b4ee2",
+      "hard_valid_ratio": 0.2490997314453125,
+      "phase_weight_mean": 0.34010663628578186
+    },
+    {
+      "sample_id": "train_000014",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        256,
+        512,
+        768,
+        1024
+      ],
+      "rotation_quarter_turns": 2,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036294305,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 33,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9925317764282227,
+      "global_bounds_m": [
+        128.0,
+        256.0,
+        4384.0,
+        4512.0
+      ],
+      "relative_path": "train/samples/train_000014.npz",
+      "file_sha256": "f480935ebebaafe8753e31c88efed1a48b21fe84384b4d0d4b3907ea252687ab",
+      "truth_content_sha256": "c8b4563b55a531c8ca20061ee34b682bab83cbd8d9c48a435e22c80c7c324d43",
+      "hard_valid_ratio": 0.0497894287109375,
+      "phase_weight_mean": 0.1600230187177658
+    },
+    {
+      "sample_id": "train_000015",
+      "parent_scene_id": "sim_parent_00002",
+      "split": "train",
+      "crop_coordinates": [
+        512,
+        768,
+        768,
+        1024
+      ],
+      "rotation_quarter_turns": 2,
+      "horizontal_flip": true,
+      "difficulty": "medium",
+      "generation_seed": 2036295314,
+      "parent_seed": 2036280126,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 40,
+      "target_deformation_rad": 0.8652304393815071,
+      "minimum_parent_coherence": 0.9018869996070862,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        256.0,
+        384.0,
+        4384.0,
+        4512.0
+      ],
+      "relative_path": "train/samples/train_000015.npz",
+      "file_sha256": "233d483580ad5bda93fb9ade677c0314baf555fe241aa95d11c3abdae8f0b66d",
+      "truth_content_sha256": "068eeb10090aa782b93152afbfd85ee164da0b410c300cc8df9901604c79ab54",
+      "hard_valid_ratio": 0.0,
+      "phase_weight_mean": 0.1897192746400833
+    },
+    {
+      "sample_id": "train_000016",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        256,
+        512,
+        256,
+        512
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": false,
+      "difficulty": "easy",
+      "generation_seed": 2036180176,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 34,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9940799474716187,
+      "global_bounds_m": [
+        128.0,
+        256.0,
+        2128.0,
+        2256.0
+      ],
+      "relative_path": "train/samples/train_000016.npz",
+      "file_sha256": "ad044f13a5786d7c56e8bf41ef96aa4fc38d404899558c41883d4a1c381d210d",
+      "truth_content_sha256": "2ca6c5c50958087f8a50a65fc807dc33b1ed6ecd9725b102e9528bf8d30ee502",
+      "hard_valid_ratio": 0.4321746826171875,
+      "phase_weight_mean": 0.41864287853240967
+    },
+    {
+      "sample_id": "train_000017",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        512,
+        768,
+        256,
+        512
+      ],
+      "rotation_quarter_turns": 1,
+      "horizontal_flip": true,
+      "difficulty": "easy",
+      "generation_seed": 2036181185,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 72,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9918981194496155,
+      "global_bounds_m": [
+        256.0,
+        384.0,
+        2128.0,
+        2256.0
+      ],
+      "relative_path": "train/samples/train_000017.npz",
+      "file_sha256": "5d4b86de3a0537b00f1204dc4b7512c8f9c23af6c3cd658675fb64c8355cfd97",
+      "truth_content_sha256": "89c07b4678a1bb0890a12e06949351d3688c2b1683dc6dc1eb84be13c04a432f",
+      "hard_valid_ratio": 0.4808349609375,
+      "phase_weight_mean": 0.47460052371025085
+    },
+    {
+      "sample_id": "train_000018",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        512,
+        768,
+        0,
+        256
+      ],
+      "rotation_quarter_turns": 3,
+      "horizontal_flip": true,
+      "difficulty": "easy",
+      "generation_seed": 2036182194,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 31,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9884141087532043,
+      "global_bounds_m": [
+        256.0,
+        384.0,
+        2000.0,
+        2128.0
+      ],
+      "relative_path": "train/samples/train_000018.npz",
+      "file_sha256": "2ef0dbac60c236abe865b5b47b5b01142f2ffc0a6708687d9cb36ea758a11b4d",
+      "truth_content_sha256": "88e5b44245f1234eaf17b6f09393274d4b532a8effb5b879f1c38d1e9a6040e3",
+      "hard_valid_ratio": 0.2632293701171875,
+      "phase_weight_mean": 0.39042967557907104
+    },
+    {
+      "sample_id": "train_000019",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        768,
+        1024,
+        256,
+        512
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": true,
+      "difficulty": "easy",
+      "generation_seed": 2036183203,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 19,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9939700365066528,
+      "global_bounds_m": [
+        384.0,
+        512.0,
+        2128.0,
+        2256.0
+      ],
+      "relative_path": "train/samples/train_000019.npz",
+      "file_sha256": "81ae77b983753df6c2b8c9d25a39d44f0cc43b6553f9fdaf6acdad18ec56b75c",
+      "truth_content_sha256": "f2488c8f52b70270a1c53f273f2017ff427686b45bdd767a35e3fc10170d3ef5",
+      "hard_valid_ratio": 0.6542205810546875,
+      "phase_weight_mean": 0.5630472302436829
+    },
+    {
+      "sample_id": "train_000020",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        768,
+        1024,
+        512,
+        768
+      ],
+      "rotation_quarter_turns": 1,
+      "horizontal_flip": true,
+      "difficulty": "easy",
+      "generation_seed": 2036184212,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 57,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9905335307121277,
+      "global_bounds_m": [
+        384.0,
+        512.0,
+        2256.0,
+        2384.0
+      ],
+      "relative_path": "train/samples/train_000020.npz",
+      "file_sha256": "05fb4b0e1642603d8c63aac1372ca6cfc0bb16c2640c90b9759371b8c7a76c9e",
+      "truth_content_sha256": "084d1b54da5f34d62f4f8790dda37b903c6563b797658092b9f9b1808a0d716a",
+      "hard_valid_ratio": 0.17755126953125,
+      "phase_weight_mean": 0.29794842004776
+    },
+    {
+      "sample_id": "train_000021",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        768,
+        1024,
+        768,
+        1024
+      ],
+      "rotation_quarter_turns": 1,
+      "horizontal_flip": true,
+      "difficulty": "easy",
+      "generation_seed": 2036185221,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 33,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9949966073036194,
+      "global_bounds_m": [
+        384.0,
+        512.0,
+        2384.0,
+        2512.0
+      ],
+      "relative_path": "train/samples/train_000021.npz",
+      "file_sha256": "89f514d9dad86fcd6fc05c3cc7d1658fcfa66f66e6beeec08fe307564d68d3c0",
+      "truth_content_sha256": "602e96c2b2b28ab0d9886a1db9ccd0e93707a995a5ca053b85ba0e7586d44c56",
+      "hard_valid_ratio": 0.0540313720703125,
+      "phase_weight_mean": 0.1835002303123474
+    },
+    {
+      "sample_id": "train_000022",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        0,
+        256,
+        512,
+        768
+      ],
+      "rotation_quarter_turns": 1,
+      "horizontal_flip": false,
+      "difficulty": "easy",
+      "generation_seed": 2036186230,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 16,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        0.0,
+        128.0,
+        2256.0,
+        2384.0
+      ],
+      "relative_path": "train/samples/train_000022.npz",
+      "file_sha256": "627077cad01ea7473aefe6a9b6e0b4e3e762fc836ccdf95bcdf81dfd1673c72c",
+      "truth_content_sha256": "523502c93ba3d29d2433796935da95a8daa34a9bbda266c41cd2028747fa5eea",
+      "hard_valid_ratio": 0.412109375,
+      "phase_weight_mean": 0.42945030331611633
+    },
+    {
+      "sample_id": "train_000023",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        0,
+        256,
+        0,
+        256
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": true,
+      "difficulty": "easy",
+      "generation_seed": 2036187239,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 19,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        0.0,
+        128.0,
+        2000.0,
+        2128.0
+      ],
+      "relative_path": "train/samples/train_000023.npz",
+      "file_sha256": "354a5d17ce4b8e5739be659a87b942109971caa19203983214536aa0d2428a1e",
+      "truth_content_sha256": "d1373552ee29ad00cc42e29aca3ee3ca624a73e71b553406d93e87518a9cb89b",
+      "hard_valid_ratio": 0.462677001953125,
+      "phase_weight_mean": 0.45459628105163574
+    },
+    {
+      "sample_id": "train_000024",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        256,
+        512,
+        0,
+        256
+      ],
+      "rotation_quarter_turns": 2,
+      "horizontal_flip": false,
+      "difficulty": "easy",
+      "generation_seed": 2036188248,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 24,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9947752952575684,
+      "global_bounds_m": [
+        128.0,
+        256.0,
+        2000.0,
+        2128.0
+      ],
+      "relative_path": "train/samples/train_000024.npz",
+      "file_sha256": "84dcf4dbc89114750bd5ee274968563042669df3951150da50e1b6cd18d4ccb3",
+      "truth_content_sha256": "93ff755ae6edcf766f605b23af7405c2617f73d8dbadc09fcffb08633729c78d",
+      "hard_valid_ratio": 0.0229949951171875,
+      "phase_weight_mean": 0.19201436638832092
+    },
+    {
+      "sample_id": "train_000025",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        512,
+        768,
+        512,
+        768
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": true,
+      "difficulty": "easy",
+      "generation_seed": 2036189257,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 20,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9909627437591553,
+      "global_bounds_m": [
+        256.0,
+        384.0,
+        2256.0,
+        2384.0
+      ],
+      "relative_path": "train/samples/train_000025.npz",
+      "file_sha256": "5fd8e2d8d9fbeb59c13c137258e167b22e68305136e894ab70cc2424b8832bcf",
+      "truth_content_sha256": "633a5d3b3c8f2cd251a91d9bdabc48b12497cc9f502b341dee53f65ebfb5d260",
+      "hard_valid_ratio": 0.147735595703125,
+      "phase_weight_mean": 0.2692852318286896
+    },
+    {
+      "sample_id": "train_000026",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        256,
+        512,
+        768,
+        1024
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": true,
+      "difficulty": "easy",
+      "generation_seed": 2036190266,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 42,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        128.0,
+        256.0,
+        2384.0,
+        2512.0
+      ],
+      "relative_path": "train/samples/train_000026.npz",
+      "file_sha256": "2c7b220f1ac002445ba330f630b07f81caad6b1c284b49dd11fbfa818d294eab",
+      "truth_content_sha256": "082d97a5531070077e9ea5a89874dc02d334128ef94751905d83a0a25b1f4de5",
+      "hard_valid_ratio": 0.136688232421875,
+      "phase_weight_mean": 0.3131699562072754
+    },
+    {
+      "sample_id": "train_000027",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        0,
+        256,
+        256,
+        512
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": false,
+      "difficulty": "easy",
+      "generation_seed": 2036191275,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 40,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        0.0,
+        128.0,
+        2128.0,
+        2256.0
+      ],
+      "relative_path": "train/samples/train_000027.npz",
+      "file_sha256": "e463e06e11514c5bfc31b2c5286b44096221ee53f7acbf396942f42ed0c4afbb",
+      "truth_content_sha256": "a75869fc05f0cd97f5aa462497230ca10c852b4f755ceb6d8a7b7a8a1899962d",
+      "hard_valid_ratio": 0.8189697265625,
+      "phase_weight_mean": 0.6093032360076904
+    },
+    {
+      "sample_id": "train_000028",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        0,
+        256,
+        768,
+        1024
+      ],
+      "rotation_quarter_turns": 1,
+      "horizontal_flip": false,
+      "difficulty": "easy",
+      "generation_seed": 2036192284,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 66,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        0.0,
+        128.0,
+        2384.0,
+        2512.0
+      ],
+      "relative_path": "train/samples/train_000028.npz",
+      "file_sha256": "d8f11bfc1cbce048bd873be55628a42d85fb8e31610ce2bf694a769c8e6d1065",
+      "truth_content_sha256": "5d572aed7db3570484e15b55347f7c91face3680faa308037c66b908db645569",
+      "hard_valid_ratio": 0.062347412109375,
+      "phase_weight_mean": 0.21624541282653809
+    },
+    {
+      "sample_id": "train_000029",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        768,
+        1024,
+        0,
+        256
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": true,
+      "difficulty": "easy",
+      "generation_seed": 2036193293,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 16,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9904740452766418,
+      "global_bounds_m": [
+        384.0,
+        512.0,
+        2000.0,
+        2128.0
+      ],
+      "relative_path": "train/samples/train_000029.npz",
+      "file_sha256": "9618e6b49c5107d4ea589ef093f638b7265ee075362e98c3e0c579c550629904",
+      "truth_content_sha256": "a146b092fdca9d0ddfbba704adf657d1118b60f4925ff4cd1bd9ed50505c6d5f",
+      "hard_valid_ratio": 0.4406890869140625,
+      "phase_weight_mean": 0.4676187336444855
+    },
+    {
+      "sample_id": "train_000030",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        512,
+        768,
+        768,
+        1024
+      ],
+      "rotation_quarter_turns": 2,
+      "horizontal_flip": true,
+      "difficulty": "easy",
+      "generation_seed": 2036194302,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 25,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9949973225593567,
+      "global_bounds_m": [
+        256.0,
+        384.0,
+        2384.0,
+        2512.0
+      ],
+      "relative_path": "train/samples/train_000030.npz",
+      "file_sha256": "4b2b2444a9ee0f1e3481ba70faa512af02bc82494567ea420df70c7172bcb34f",
+      "truth_content_sha256": "eecc50b51a214304e05d3e43d4225fa1679a903b12bb0a5e432adb8cc65f066a",
+      "hard_valid_ratio": 0.141326904296875,
+      "phase_weight_mean": 0.2326200008392334
+    },
+    {
+      "sample_id": "train_000031",
+      "parent_scene_id": "sim_parent_00001",
+      "split": "train",
+      "crop_coordinates": [
+        256,
+        512,
+        512,
+        768
+      ],
+      "rotation_quarter_turns": 2,
+      "horizontal_flip": true,
+      "difficulty": "easy",
+      "generation_seed": 2036195311,
+      "parent_seed": 2036180123,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 15,
+      "target_deformation_rad": 0.43943061364616104,
+      "minimum_parent_coherence": 0.9680277705192566,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        128.0,
+        256.0,
+        2256.0,
+        2384.0
+      ],
+      "relative_path": "train/samples/train_000031.npz",
+      "file_sha256": "d5ff1a6cfdc69c2ea13f101aba6c24fa8479bf83f34914d5af21ff811bc1ab62",
+      "truth_content_sha256": "6641807a9579281cddddce04f45376cbdbd719068d6dffb86df33568dfb86bcd",
+      "hard_valid_ratio": 0.3047943115234375,
+      "phase_weight_mean": 0.36425983905792236
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "split": "validation",
+  "sample_count": 8,
+  "parent_scene_count": 1,
+  "samples": [
+    {
+      "sample_id": "validation_000000",
+      "parent_scene_id": "sim_parent_00000",
+      "split": "validation",
+      "crop_coordinates": [
+        256,
+        512,
+        256,
+        512
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036080173,
+      "parent_seed": 2036080120,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 32,
+      "target_deformation_rad": 0.7399780857942423,
+      "minimum_parent_coherence": 0.9385640621185303,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        128.0,
+        256.0,
+        128.0,
+        256.0
+      ],
+      "relative_path": "validation/samples/validation_000000.npz",
+      "file_sha256": "1cf19ccf717936d23a6833484e1cffaa0d4a4230322e591d0047c9f68f11d645",
+      "truth_content_sha256": "40b6ecdb20a534ae2320871bf78b7e3be368655cb0730c75fa0db5403b586f36",
+      "hard_valid_ratio": 0.628326416015625,
+      "phase_weight_mean": 0.5638254284858704
+    },
+    {
+      "sample_id": "validation_000001",
+      "parent_scene_id": "sim_parent_00000",
+      "split": "validation",
+      "crop_coordinates": [
+        512,
+        768,
+        768,
+        1024
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036081182,
+      "parent_seed": 2036080120,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 62,
+      "target_deformation_rad": 0.7399780857942423,
+      "minimum_parent_coherence": 0.9385640621185303,
+      "mean_patch_coherence": 0.9949820637702942,
+      "global_bounds_m": [
+        256.0,
+        384.0,
+        384.0,
+        512.0
+      ],
+      "relative_path": "validation/samples/validation_000001.npz",
+      "file_sha256": "83fc1df469dce7667ed4b3ee4bc12161e62dfe1740e752a5c15eb97f011d39b3",
+      "truth_content_sha256": "a8959c51ef0db3db7a920fc3a0aeeb157b10f94a2144a1125e33287fb4af5734",
+      "hard_valid_ratio": 0.4188690185546875,
+      "phase_weight_mean": 0.4752465486526489
+    },
+    {
+      "sample_id": "validation_000002",
+      "parent_scene_id": "sim_parent_00000",
+      "split": "validation",
+      "crop_coordinates": [
+        0,
+        256,
+        512,
+        768
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036082191,
+      "parent_seed": 2036080120,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 17,
+      "target_deformation_rad": 0.7399780857942423,
+      "minimum_parent_coherence": 0.9385640621185303,
+      "mean_patch_coherence": 0.9897534251213074,
+      "global_bounds_m": [
+        0.0,
+        128.0,
+        256.0,
+        384.0
+      ],
+      "relative_path": "validation/samples/validation_000002.npz",
+      "file_sha256": "30a41de52a7253aa4412964c1c68146818b99687f10ea5ebbd9a6d8ca9d74568",
+      "truth_content_sha256": "3512f1ff582ef86978f7f660245e67186505ca84449be11b23b94eef27ca932f",
+      "hard_valid_ratio": 0.179901123046875,
+      "phase_weight_mean": 0.2819956839084625
+    },
+    {
+      "sample_id": "validation_000003",
+      "parent_scene_id": "sim_parent_00000",
+      "split": "validation",
+      "crop_coordinates": [
+        512,
+        768,
+        0,
+        256
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036083200,
+      "parent_seed": 2036080120,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 45,
+      "target_deformation_rad": 0.7399780857942423,
+      "minimum_parent_coherence": 0.9385640621185303,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        256.0,
+        384.0,
+        0.0,
+        128.0
+      ],
+      "relative_path": "validation/samples/validation_000003.npz",
+      "file_sha256": "ac228b9a44b33329cdf951d915bcec3bc9eaa451c8bb2bbb6e5b646058c94f03",
+      "truth_content_sha256": "b17524534e755a01d815e4661b85900d5afa64179a9fbd4c45419a2fd82e71ab",
+      "hard_valid_ratio": 0.4166412353515625,
+      "phase_weight_mean": 0.4668160080909729
+    },
+    {
+      "sample_id": "validation_000004",
+      "parent_scene_id": "sim_parent_00000",
+      "split": "validation",
+      "crop_coordinates": [
+        768,
+        1024,
+        512,
+        768
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036084209,
+      "parent_seed": 2036080120,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 34,
+      "target_deformation_rad": 0.7399780857942423,
+      "minimum_parent_coherence": 0.9385640621185303,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        384.0,
+        512.0,
+        256.0,
+        384.0
+      ],
+      "relative_path": "validation/samples/validation_000004.npz",
+      "file_sha256": "69a1380b51a3471cab71e384010a12b01f3bf76a75d89100c906e91e9dd52805",
+      "truth_content_sha256": "ca6819ad2bb230258ab47d76e2f38b8ff1bb2a29d9963e0c5122f702bc601f9e",
+      "hard_valid_ratio": 0.2174835205078125,
+      "phase_weight_mean": 0.2977222204208374
+    },
+    {
+      "sample_id": "validation_000005",
+      "parent_scene_id": "sim_parent_00000",
+      "split": "validation",
+      "crop_coordinates": [
+        768,
+        1024,
+        256,
+        512
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036085218,
+      "parent_seed": 2036080120,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 72,
+      "target_deformation_rad": 0.7399780857942423,
+      "minimum_parent_coherence": 0.9385640621185303,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        384.0,
+        512.0,
+        128.0,
+        256.0
+      ],
+      "relative_path": "validation/samples/validation_000005.npz",
+      "file_sha256": "2fdacd2d823313bf06f050a62fdaf52a4ce65fb45753f61f7451076feedf7e87",
+      "truth_content_sha256": "6765c8ee973788033f6de859e999d458bd5b2e0a07e8c7d9e89402d220b1be79",
+      "hard_valid_ratio": 0.044677734375,
+      "phase_weight_mean": 0.22711361944675446
+    },
+    {
+      "sample_id": "validation_000006",
+      "parent_scene_id": "sim_parent_00000",
+      "split": "validation",
+      "crop_coordinates": [
+        256,
+        512,
+        0,
+        256
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036086227,
+      "parent_seed": 2036080120,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 41,
+      "target_deformation_rad": 0.7399780857942423,
+      "minimum_parent_coherence": 0.9385640621185303,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        128.0,
+        256.0,
+        0.0,
+        128.0
+      ],
+      "relative_path": "validation/samples/validation_000006.npz",
+      "file_sha256": "70acfc9202c1c523bc712ae5c6a3ed947af3803ef6b5181fa579dd2f5007694f",
+      "truth_content_sha256": "5954de5b3ce62b18b5f654ebf286a63debe33ad69f1344bc69183b449dee0d02",
+      "hard_valid_ratio": 0.5666046142578125,
+      "phase_weight_mean": 0.5617939233779907
+    },
+    {
+      "sample_id": "validation_000007",
+      "parent_scene_id": "sim_parent_00000",
+      "split": "validation",
+      "crop_coordinates": [
+        768,
+        1024,
+        0,
+        256
+      ],
+      "rotation_quarter_turns": 0,
+      "horizontal_flip": false,
+      "difficulty": "medium",
+      "generation_seed": 2036087236,
+      "parent_seed": 2036080120,
+      "parent_scene_shape": [
+        1024,
+        1024
+      ],
+      "native_patch_shape": [
+        256,
+        256
+      ],
+      "native_direct_simulation": true,
+      "interpolation_from_32x32": false,
+      "temporal_baseline_days": 52,
+      "target_deformation_rad": 0.7399780857942423,
+      "minimum_parent_coherence": 0.9385640621185303,
+      "mean_patch_coherence": 0.9949999451637268,
+      "global_bounds_m": [
+        384.0,
+        512.0,
+        0.0,
+        128.0
+      ],
+      "relative_path": "validation/samples/validation_000007.npz",
+      "file_sha256": "1dd8aea6016fb2e48c893770b6376b2e6a114b89a97d0a7d4e356ed39dc9633f",
+      "truth_content_sha256": "b2666330bc5906355a3dc42069821bae26ca307aabc6f97e2b15513eebbf220c",
+      "hard_valid_ratio": 0.0233306884765625,
+      "phase_weight_mean": 0.22134988009929657
+    }
+  ]
+}
