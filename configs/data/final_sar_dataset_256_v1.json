@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "dataset_id": "final_sar_dataset_256_v1",
+  "scope": "controlled high-resolution two-epoch complex SAR simulation truths",
+  "generation_version": "final-256-parent-first-v1",
+  "base_seed": 2026080101,
+  "image_shape": [256, 256],
+  "parent_scene_shape": [1024, 1024],
+  "patch_stride": [256, 256],
+  "maximum_patches_per_parent": 16,
+  "aperture_candidate_count": 256,
+  "future_sample_counts": [80, 104, 128],
+  "truth_only": true,
+  "precomputed_masked_observations": false,
+  "splits": {
+    "train": {"sample_count": 3000, "directory": "train"},
+    "validation": {"sample_count": 500, "directory": "validation"},
+    "test": {"sample_count": 500, "directory": "sealed_test"}
+  },
+  "dry_run_splits": {
+    "train": {"sample_count": 32, "directory": "train"},
+    "validation": {"sample_count": 8, "directory": "validation"},
+    "test": {"sample_count": 8, "directory": "sealed_test"}
+  },
+  "scene": {
+    "amplitude_floor": 0.035,
+    "distributed_region_count_range": [5, 9],
+    "line_count_range": [3, 7],
+    "point_cluster_count_range": [5, 10],
+    "points_per_cluster_range": [2, 6],
+    "phase_deformation_region_count_range": [2, 5],
+    "coherence_change_region_count_range": [1, 3],
+    "difficulty_probabilities": {"easy": 0.25, "medium": 0.50, "hard": 0.25},
+    "difficulty": {
+      "easy": {
+        "maximum_deformation_rad": [0.35, 0.70],
+        "local_amplitude_change_fraction": [0.03, 0.09],
+        "minimum_local_coherence": [0.93, 0.98]
+      },
+      "medium": {
+        "maximum_deformation_rad": [0.65, 1.15],
+        "local_amplitude_change_fraction": [0.06, 0.15],
+        "minimum_local_coherence": [0.83, 0.94]
+      },
+      "hard": {
+        "maximum_deformation_rad": [1.00, 1.55],
+        "local_amplitude_change_fraction": [0.10, 0.22],
+        "minimum_local_coherence": [0.70, 0.86]
+      }
+    },
+    "phase_weight_low_amplitude": 0.06,
+    "phase_weight_high_amplitude": 0.32,
+    "hard_valid_threshold": 0.45
+  },
+  "noise_bank": {
+    "representation": "deterministic_seed_bank_for_online_full_grid_noise",
+    "snr_db": [10, 15, 20, 25, 30],
+    "primary_snr_db": 20,
+    "split_independent": true,
+    "epoch_independent": true,
+    "materialize_observations": false
+  },
+  "outputs": {
+    "dry_run_directory": "data/final_sar_dataset_256_dry_run",
+    "full_directory": "data/final_sar_dataset_256"
+  }
+}

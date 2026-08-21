@@ -25,6 +25,10 @@ checkpoints/
 *.ckpt
 *.log
 
+# Locally generated full datasets (the bundled 48-sample example is tracked)
+data/final_sar_dataset_256/
+data/final_sar_dataset_256_dry_run/
+
 # OS metadata
 .DS_Store
 Thumbs.db
