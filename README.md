@@ -13,25 +13,17 @@ This repository provides the reconstruction model, a matrix-free wideband SAR op
 
 ## Method
 
-For each epoch \(t\), the observation model is
+The model takes two incomplete complex phase histories acquired at different epochs and reconstructs the corresponding complex SAR images together. The known SAR acquisition geometry and aperture sampling pattern are used directly in the reconstruction rather than being approximated by a generic image-degradation model.
 
-$$
-y_t = M_t A_t x_t + n_t, \qquad t \in \{1,2\},
-$$
-
-where \(x_t\) is the complex SAR image, \(A_t\) is the wideband forward operator, \(M_t\) is the aperture sampling mask, and \(n_t\) is measurement noise. The target differential phase is
-
-$$
-\Delta \phi = \operatorname{arg}\!\left(x_2 x_1^{*}\right).
-$$
-
-Each unfolding stage contains three main components:
+Each of the five unfolding stages contains three main components:
 
 1. matrix-free data consistency based on the SAR forward and adjoint operators;
 2. a shared complex-valued image prior for the two epochs;
 3. coherence- and residual-aware selective interaction between the reconstructions.
 
-Data consistency is applied both before the shared prior and after the selective interaction. Exchanging the two input epochs exchanges the two outputs, while unreliable cross-epoch interaction falls back toward independent reconstruction. Sampling locations are supplied by the experiment configuration and remain unchanged during a training run.
+Data consistency is applied both before the shared prior and after the selective interaction. The shared prior captures structures common to both acquisitions, while the interaction module determines where cross-epoch information is reliable enough to use. In regions with weak coherence or conflicting measurement evidence, the two reconstruction branches operate more independently to avoid transferring misleading information.
+
+The network outputs two complex SAR images. Training considers complex reconstruction quality, amplitude fidelity, individual phase accuracy, and the differential phase between the two epochs. Exchanging the input epochs exchanges the corresponding outputs, so the result does not depend on an arbitrary ordering of the image pair.
 
 ## Repository structure
 
